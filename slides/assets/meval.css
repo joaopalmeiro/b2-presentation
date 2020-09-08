@@ -1,9 +1,13 @@
 :root {
-  --color-black: #0d1821;
-  --color-white: #f0f4ef;
-  --color--dblue: #344966;
-  --color--lblue: #b4cded;
-  --color--green: #bfcc94;
+  --color-black: #001011;
+  --color-white: #fffffc;
+  --color-gray: #757780;
+  --color-blue: #6ccff6;
+  --color-green: #98ce00;
+}
+
+.gray {
+  color: var(--color-gray);
 }
 
 .inverse {
@@ -20,4 +24,39 @@
 
 .title-slide .remark-slide-number {
   display: none;
+}
+
+.text-highlight {
+  position: relative;
+}
+
+.text-highlight:before {
+  content: "";
+  left: 0em;
+  top: 0em;
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--color-blue);
+  position: absolute;
+  border-right-color: transparent;
+  width: 100%;
+  height: 1em;
+  transform: rotate(1deg);
+  border-radius: 0.25em;
+}
+
+.text-highlight:after {
+  content: "";
+  left: 0em;
+  top: 0em;
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--color-blue);
+  border-left-color: transparent;
+  border-top-color: transparent;
+  position: absolute;
+  width: 100%;
+  height: 1em;
+  transform: rotate(-1deg);
+  border-radius: 0.25em;
 }
