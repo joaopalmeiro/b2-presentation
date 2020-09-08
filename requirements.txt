@@ -1,0 +1,8 @@
+b2-ext
+typing_extensions
+jupyter
+pandas
+datascience
+asttokens
+pyperclip
+vega

@@ -2,6 +2,13 @@
 
 Presentation of the paper: "[B2: Bridging Code and Interactive Visualization in Computational Notebooks](http://vis.mit.edu/pubs/b2)" (Yifan Wu, Joseph M. Hellerstein, Arvind Satyanarayan).
 
+## Quickstart
+
+If necessary, install [Anaconda](https://docs.anaconda.com/anaconda/install/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) first, please.
+
+- `conda env create -f environment.yml`.
+- `conda activate b2-presentation`.
+
 ## Documentation
 
 - [Configuration options](https://github.com/gnab/remark/wiki/Configuration) available for remark (`nature` argument).
@@ -17,6 +24,8 @@ Presentation of the paper: "[B2: Bridging Code and Interactive Visualization in 
   - `conda activate b2-presentation`.
   - `conda install -c r rstudio`.
   - `conda install -c r r-xaringan`.
+  - `conda install pip`.
+  - `pip install -r requirements.txt`.
   - `conda env export > environment.yml`.
   - `conda remove -n b2-presentation --all`.
 - [xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer/index.html).
