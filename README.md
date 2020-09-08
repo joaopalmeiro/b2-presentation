@@ -4,7 +4,7 @@ Presentation of the paper: "[B2: Bridging Code and Interactive Visualization in 
 
 ## Documentation
 
-- Configuration options available for remark (`nature` argument): https://github.com/gnab/remark/wiki/Configuration.
+- [Configuration options](https://github.com/gnab/remark/wiki/Configuration) available for remark (`nature` argument).
 
 ## Notes
 
