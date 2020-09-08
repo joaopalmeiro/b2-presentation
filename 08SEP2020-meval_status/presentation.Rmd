@@ -1,8 +1,8 @@
 ---
 title: "MevaL"
 subtitle: "Project Update"
-# author: "João Palmeiro"
-# date: "2020/09/08"
+author: "João Palmeiro"
+date: "2020/09/08"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -17,5 +17,3 @@ One slide.
 ---
 
 Another slide.
-
----

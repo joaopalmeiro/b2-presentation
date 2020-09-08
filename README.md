@@ -2,6 +2,10 @@
 
 A collection of presentations created in R.
 
+## Documentation
+
+- Configuration options available for remark (`nature` argument): https://github.com/gnab/remark/wiki/Configuration.
+
 ## Notes
 
 - [`renv`](https://rstudio.github.io/renv/articles/renv.html) (Pipenv for R):
