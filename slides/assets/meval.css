@@ -1,7 +1,23 @@
 :root {
-  --color-black: #44475a;
+  --color-black: #0d1821;
+  --color-white: #f0f4ef;
+  --color--dblue: #344966;
+  --color--lblue: #b4cded;
+  --color--green: #bfcc94;
 }
 
 .inverse {
-  background-color: var(--color-black);
+  background-color: var(--color-white);
+  color: var(--color-black);
+  text-shadow: none;
+}
+
+.inverse h1,
+.inverse h2,
+.inverse h3 {
+  color: var(--color-black);
+}
+
+.title-slide .remark-slide-number {
+  display: none;
 }

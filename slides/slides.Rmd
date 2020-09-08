@@ -7,13 +7,22 @@ output:
   xaringan::moon_reader:
     lib_dir: assets
     css: ["default", "default-fonts", "assets/meval.css"]
+    seal: false
     nature:
       highlightStyle: github
       countIncrementalSlides: false
       ratio: "16:9"
+      slideNumberFormat: "%current%"
+      titleSlideClass: ["left", "bottom", "inverse"]
 ---
 
-One slide.
+class: left, bottom, title-slide, inverse
+
+# B2
+
+## Bridging Code and Interactive Visualization in Computational Notebooks
+
+Data Visualization Show & Tell
 
 ---
 
