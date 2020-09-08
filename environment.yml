@@ -1,4 +1,4 @@
-name: r-presentations
+name: b2-presentation
 channels:
   - r
   - conda-forge
@@ -162,5 +162,5 @@ dependencies:
   - xz=5.2.5=haf1e3a3_1
   - zlib=1.2.11=h7795811_1009
   - zstd=1.4.5=h289c70a_2
-prefix: /opt/anaconda3/envs/r-presentations
+prefix: /opt/anaconda3/envs/b2-presentation
 

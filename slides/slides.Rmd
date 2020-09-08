@@ -1,8 +1,8 @@
 ---
-title: "MevaL"
-subtitle: "Project Update"
+title: "B2"
+subtitle: "Bridging Code and Interactive Visualization in Computational Notebooks"
 author: "João Palmeiro"
-date: "2020/09/08"
+date: "2020/09/09"
 output:
   xaringan::moon_reader:
     lib_dir: libs
