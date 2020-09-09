@@ -6,12 +6,15 @@ Presentation of the paper: "[B2: Bridging Code and Interactive Visualization in 
 
 If necessary, install [Anaconda](https://docs.anaconda.com/anaconda/install/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) first, please.
 
+- `make init`
+- `make nb`
+
+or
+
 - `conda env create -f environment.yml`.
 - `conda activate b2-presentation`.
-
-## Documentation
-
-- [Configuration options](https://github.com/gnab/remark/wiki/Configuration) available for remark (`nature` argument).
+- `jupyter nbextension enable --py b2 --sys-prefix`.
+- `jupyter notebook`
 
 ## Notes
 
@@ -29,3 +32,4 @@ If necessary, install [Anaconda](https://docs.anaconda.com/anaconda/install/) or
   - `conda env export > environment.yml`.
   - `conda remove -n b2-presentation --all`.
 - [xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer/index.html).
+- [Configuration options](https://github.com/gnab/remark/wiki/Configuration) available for remark (`nature` argument).
