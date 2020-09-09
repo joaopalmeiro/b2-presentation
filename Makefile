@@ -1,4 +1,4 @@
-.PHONY: init nb remove
+.PHONY: init nb remove rstudio
 
 CONDA_BASE=$(shell conda info --base)
 
@@ -19,3 +19,8 @@ nb:
 
 remove:
 	conda remove -n b2-presentation --all
+
+rstudio:
+	source $(CONDA_BASE)/etc/profile.d/conda.sh && \
+	conda activate b2-presentation && \
+	rstudio
