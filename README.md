@@ -31,6 +31,9 @@ or
   - `pip install -r requirements.txt`.
   - `conda env export > environment.yml`.
   - `conda remove -n b2-presentation --all`.
+- [DeckTape](https://github.com/astefanutti/decktape) (to generate a PDF file from the slides):
+  - `sudo npm install -g decktape --unsafe-perm=true`.
+  - `decktape --chrome-arg=--disable-web-security remark slides.html slides.pdf`.
 - [xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer/index.html).
 - [Configuration options](https://github.com/gnab/remark/wiki/Configuration) available for remark (`nature` argument).
 - [Emojis](https://www.w3schools.com/charsets/ref_emoji.asp).
