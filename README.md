@@ -33,3 +33,4 @@ or
   - `conda remove -n b2-presentation --all`.
 - [xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer/index.html).
 - [Configuration options](https://github.com/gnab/remark/wiki/Configuration) available for remark (`nature` argument).
+- [Emojis](https://www.w3schools.com/charsets/ref_emoji.asp).

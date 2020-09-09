@@ -21,7 +21,7 @@ class: left, bottom, title-slide, inverse
 
 .gray[Data Visualization Show & Tell]
 
-# B2
+# B2 .gray[(.strike[English level])]
 
 ## Bridging .text-highlight[Code] and .text-highlight[Interactive Visualization] in Computational .text-highlight[Notebooks]
 
@@ -29,4 +29,6 @@ Yifan Wu, Joseph M. Hellerstein, Arvind Satyanarayan (UIST 2020)
 
 ---
 
-Another slide.
+# .over[What is this paper about?] &#129300;
+
+- **Keywords**: (Exploratory) Data Analysis, Data Visualization, and Notebooks.

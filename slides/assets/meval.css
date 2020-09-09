@@ -26,6 +26,10 @@
   display: none;
 }
 
+.remark-slide-number {
+  color: var(--color-gray);
+}
+
 .text-highlight {
   position: relative;
 }
@@ -59,4 +63,13 @@
   height: 1em;
   transform: rotate(-1deg);
   border-radius: 0.25em;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.over {
+  text-decoration: overline;
+  text-decoration-color: var(--color-black);
 }
