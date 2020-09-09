@@ -4,6 +4,12 @@ Presentation of the paper: "[B2: Bridging Code and Interactive Visualization in 
 
 ## Quickstart
 
+### Slide deck
+
+You can check the slide deck online [here](https://joaopalmeiro.github.io/b2-presentation/slides). On the other hand, you can also find the slide deck in PDF format [here](https://github.com/joaopalmeiro/b2-presentation/blob/master/docs/slides.pdf).
+
+### Demo
+
 If necessary, install [Anaconda](https://docs.anaconda.com/anaconda/install/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) first, please.
 
 - `make init`
