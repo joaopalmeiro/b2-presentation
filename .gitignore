@@ -41,3 +41,4 @@ vignettes/*.pdf
 
 # Jupyter Notebook
 .ipynb_checkpoints
+formatter.py
